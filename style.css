@@ -21,7 +21,7 @@
     background-size: 200% 200%;
     padding: 0;
     margin: 0; 
-    background: #FFFFFF;
+    background: #f2f2f2;
     font-family: 'Manrope', sans-serif;
   }
 
@@ -142,7 +142,7 @@
 .sectionone-notes {
   display:flex;
   margin-top: 30px;
-  margin-left: 70px;
+  padding-left: 85px;
   -webkit-animation: slide-in-left 1s linear both;
   animation: slide-in-left 1s linear both;
 }
@@ -224,6 +224,7 @@
     padding-bottom: 170px;
     height: 220px;
     width: 360px;
+    margin-left: 5px;
   }
   .sectionthree-img-details {
     display: flex;
@@ -248,8 +249,8 @@
 
   #ellipse-2 {
     position: relative;
-    margin-right: 80%;
-    margin-top: 30%;
+    margin-right: 77%;
+    margin-top: 28%;
   }
   .sectionthree-icons {
     display: flex;
@@ -302,6 +303,149 @@
     width: 350px;
     padding-left: 10px;
   }
+  .rectangles {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    position: absolute;
+    top: 158%;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .rectangle {
+    background: #fdfdfd;
+    border-radius: 30px;
+    margin: 10px;
+    height: 140px;
+    width: 45px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  .rectangle div {
+  text-align: center;
+  margin-top: 10px;
+  padding-right: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  transform: rotate(270deg);
+  overflow: hidden;
+  letter-spacing: 2px;
+  font-size: 8px;
+  }
+  .rectangle  p {
+    font-size: 14px;
+    padding: 10px 5px;
+    margin-top: 76px;
+  }
+  #xrp {
+    color: #FFFFFF;
+    background-color: #4F46BA;
+  }
+  #xrp p {
+    color: #FFFFFF;
+  }
+.new  {
+ border: 3px dotted #607D7C;
+ box-shadow: none;
+}
+.new div {
+  font-size: 7px;
+  margin-top: 22px;
+}
+.new p {
+  color: #607D7C;
+  font-size: 7px;
+}
+
+#ellipse-3 {
+    position: relative;
+    margin-left: 77%;
+    margin-top: 1%;
+}
+.sectionthree-users {
+  display: flex;
+  flex-direction: column;
+}
+.sectionthree-users .userone{
+    border-radius: 10px;
+    background: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 156%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.checkbox {
+  display:flex;
+}
+.fa-circle {
+  font-size: 25px;
+  color: #4F46BA;
+  padding-top: 5px;
+  padding-left: 8px;
+}
+
+.fa-circle-nodes {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 5px;
+  margin-left: 175px;
+}
+.checkbox span p:first-child {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 8px;
+}
+.checkbox span p:nth-child(2) {
+  color: #C6C6C6;
+  padding-left: 10px;
+}
+.sectionthree-users div span p {
+  font-size: 10px;
+}
+
+.sectionthree-users .usertwo{
+  border-radius: 10px;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 164%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  padding-right: 14px;
+}
+.sectionthree-users .usertwo .checkbox span p:nth-child(2) {
+  margin-left: -15px;
+}
+.ellipseimg {
+  padding: 15px 5px;
+  margin-left: 150px;
+}
+.fa-circle-check {
+  font-size: 25px;
+  margin-top: 10px;
+  color: #4F46BA;
+  padding-left: 15px;
+}
+.sectionthree-users .userthree {
+  border-radius: 10px;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 173%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  padding-right: 10px;
+}
+.sectionthree-users .userthree .checkbox span p:nth-child(2) {
+    margin-left: -22px;
+}
  /* animation key frames  */
 
 
