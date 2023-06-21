@@ -88,7 +88,7 @@
 .section-one {
   display: flex;
   overflow: hidden;
-  background-color: #F1F1FF;
+  background: linear-gradient(to top left, transparent 250px, #ebebfe 50px);
 }
 .section-one h1 {
   font-size: 60px;
@@ -142,7 +142,7 @@
 .sectionone-notes {
   display:flex;
   margin-top: 30px;
-  padding-left: 85px;
+  padding-left: 75px;
   -webkit-animation: slide-in-left 1s linear both;
   animation: slide-in-left 1s linear both;
 }
@@ -300,7 +300,7 @@
     font-weight: 400;
   }
   .sectionthree-paragraph {
-    width: 350px;
+    width: 370px;
     padding-left: 10px;
   }
   .rectangles {
@@ -394,6 +394,7 @@
   color: #ffffff;
   padding-top: 5px;
   margin-left: 175px;
+  opacity: -1;
 }
 .checkbox span p:first-child {
   font-size: 12px;
@@ -445,6 +446,144 @@
 }
 .sectionthree-users .userthree .checkbox span p:nth-child(2) {
     margin-left: -22px;
+}
+
+.section-four {
+  display: flex;
+  margin: 20px 150px;
+}
+
+.sectionfour-images {
+  flex: 40%;
+}
+.imagebackground {
+  margin-top: 100px;
+  width: 452px;
+  height: 452px;
+  position: relative;
+  background: linear-gradient(to top left, transparent 50px, #ebebfe 50px)
+}
+.sectionfour-users {
+  position: absolute;
+  top: 40%;
+  margin-left: 87px;
+  left: 32%;
+  width: 310px;
+}
+
+.sectionfour-userone {
+  border-radius: 10px;
+  background: #fdfdfd;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.sectionfour-userone .checkbox {
+  display:flex;
+}
+.sectionfour-usertwo {
+  border-radius: 10px;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-top: 10px;
+  padding-right: 10px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.sectionfour-userthree {
+  border-radius: 10px;
+  background: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;;
+  margin-top: 10px;
+  padding-right: 10px;
+  width: 100%;
+  position: relative;
+}
+.sectionfour-details {
+  flex: 50%;
+  margin-top: 50px;
+}
+.sectionfour-users .checkbox span p:first-child {
+  font-size: 12px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 0;
+  width: 90px;
+}
+.sectionfour-userone .checkbox span p:nth-child(2) {
+  color: #C6C6C6;
+  padding: 0;
+  margin-left: 6px;
+  font-size: 10px;
+}
+.sectionfour-usertwo .checkbox span p:nth-child(2) {
+  color: #C6C6C6;
+  padding: 0;
+  margin-left: 6px;
+  font-size: 10px;
+}
+.sectionfour-userthree .checkbox span p:nth-child(2) {
+  color: #C6C6C6;
+  padding: 0;
+  margin-left: 6px;
+  font-size: 10px;
+}
+.sectionfour-details h5 {
+  text-transform: uppercase;
+  color: #3734A9;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px auto;
+  margin-top: 35px;
+  padding-left: 25px;
+  padding-right: 80px;
+}
+.sectionfour-details h3 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: left;
+  margin: 10px auto;
+  padding-left: 25px;
+  padding-right: 80px;
+  line-height: 60px;
+}
+.sectionfour-details p {
+  color: #757095;
+  font-size: 18px;
+  padding: 10px 40px;
+  margin-right: 40px;
+}
+.sectionfour-details button {
+  padding: 15px 20px;
+  background: #3734A9;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+#girlimage {
+  position: absolute;
+  top: 211%;
+  margin-left: 40px;
+  width: 250px;
+  height: 550px;
+}
+#svg100 {
+  position: absolute;
+  top: 219%;
+  margin-left: 40px;
+  left: 32%;
 }
  /* animation key frames  */
 
