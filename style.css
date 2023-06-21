@@ -611,7 +611,7 @@
   margin-top: 40px;
 }
 .newsletter-content {
-
+  padding-left: 30px;
   flex: 50%;
 }
 .newsletter-content h5 {
