@@ -746,6 +746,11 @@ input[type=submit]:hover {
   border-top-left-radius: 50px 50px;
   border-bottom-right-radius: 50px 50px;
 }
+#svg46 {
+  position: absolute;
+  top: 427%;
+  left: 21%;
+}
 .section-eight h3 {
   color: #000000;
   font-size: 40px;
@@ -774,6 +779,7 @@ input[type=submit]:hover {
   margin-bottom: 40px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
  /* animation key frames  */
 @-webkit-keyframes slide-in-bottom {
   0% {
