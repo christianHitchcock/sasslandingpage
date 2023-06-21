@@ -23,6 +23,7 @@
     margin: 0; 
     background: #f2f2f2;
     font-family: 'Manrope', sans-serif;
+    overflow-x:hidden;
   }
 
   header {
@@ -83,6 +84,9 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
+main {
+  overflow: hidden;
+}
 /* styles for section one starts */
 
 .section-one {
@@ -585,7 +589,7 @@
 }
 #svg100 {
   position: absolute;
-  top: 225%;
+  top: 222%;
   left: 29%;
 }
 /* styles for section four ends */
@@ -658,7 +662,7 @@ input[type=text] {
 form button {
   width: 70%;
   background-color: #FF7F5C;
-  color: white;
+  color: #f2f2f2;
   padding: 14px 20px;
   margin: 8px 90px;
   border: none;
@@ -670,11 +674,107 @@ form button {
 input[type=submit]:hover {
   background-color: #eeb3a3;
 }
+/* section six styles ends */
 
+/* .section-seven styles starts */
+.section-seven {
+  margin: 60px 20px;
+}
+.section-seven h5 {
+  text-transform: uppercase;
+  color: #3734A9;
+  font-size: 20px;
+  text-align: center;
+  margin: 8px 90px;
+}
+.section-seven h3 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 60px;
+  padding: 10px 20px;
+  margin: 20px 500px;
+}
+.ratings-wrapper {
+  display: flex;
+  margin-left: 90px;
+}
+.sectionseven-ratings {
+  background: linear-gradient(to top left, transparent 20px, #dcdcdc 20px);
+  margin: 30px 15px;
+  padding-top: 70px; 
+  padding: 15px;
+}
+#circleellipse {
+  position: absolute;
+  top: 380%;
+  margin-left: 10px;
+}
+ #stars p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+#stars img {
+  padding: 10px;
+  margin: 10px 0px;
+  margin-top: 30px;
+}
+.sectionseven-rate {
+  display: flex;
+  padding: 10px 0;
+}
+.sectionseven-rate span p:first-child {
+  font-size: 12px;
+  padding-left: 5px;
+  color:#453232 ;
+}
+.sectionseven-rate span p:nth-child(2) {
+  font-size: 10px;
+  padding-left: 5px;
+  color: #797979;
+}
+/* styles for section-seven ends */
 
+/* styles for section eight */
+.section-eight {
+  margin: 40px 300px;
+  background:  #dcdcdc ;
+  padding: 20px;
+  border-top-left-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+}
+.section-eight h3 {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 60px;
+  padding: 5px 20px;
+  margin: 10px;
+}
+.section-eight p {
+  text-align: center;
+  color: #757095;
+  font-size: 18px;
+  margin: 0px 80px;
+  padding: 0;
+}
+.section-eight button {
+  padding: 15px 20px;
+  background: #3734A9;
+  color: #f2f2f2;
+  border: none;
+  margin-left:390px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
  /* animation key frames  */
-
-
 @-webkit-keyframes slide-in-bottom {
   0% {
     -webkit-transform: translateY(1000px);
