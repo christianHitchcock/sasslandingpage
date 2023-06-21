@@ -28,7 +28,7 @@
   header {
     display: flex;
     color: #000000;
-    background-color: #F1F1FF;
+    background-color: #ebebfe;
   }
 
   .logo {
@@ -450,11 +450,14 @@
 
 .section-four {
   display: flex;
-  margin: 20px 150px;
+  margin: 20px 100px;
+
 }
 
 .sectionfour-images {
   flex: 40%;
+
+  padding: 10px;
 }
 .imagebackground {
   margin-top: 100px;
@@ -511,6 +514,7 @@
 .sectionfour-details {
   flex: 50%;
   margin-top: 50px;
+  margin-right: 60px;
 }
 .sectionfour-users .checkbox span p:first-child {
   font-size: 12px;
